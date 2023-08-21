@@ -1,0 +1,134 @@
+.Main{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-evenly; */
+}
+
+.Main>h1{
+  margin-left: 30px;
+}
+
+.cards{
+  display: flex;
+  padding-left: 30px;
+  gap:20px;
+  /* background-color: red; */
+}
+
+
+
+.card1{
+  height: 180px;
+  width: 250px;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: rgba(214, 205, 205, 0.4) 0px 2px 4px, rgba(214, 191, 191, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 93%);
+}
+.card2{
+  height: 180px;
+  width: 250px;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: rgba(214, 205, 205, 0.4) 0px 2px 4px, rgba(214, 191, 191, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,0,65,1) 0%, rgba(206,227,191,1) 100%);
+}
+.card3{
+  height: 180px;
+  width: 250px;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: rgba(214, 205, 205, 0.4) 0px 2px 4px, rgba(214, 191, 191, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,132,0,1) 0%, rgba(206,227,191,1) 100%);
+}
+@media screen and (max-width: 1200px){
+  .cards{
+    flex-direction: column;
+    
+  }
+  .card1,.card2 ,.card3{
+    width: 500px;
+  }
+}
+
+.card:hover{
+  box-shadow: rgba(243, 238, 238, 0.17) 0px -23px 25px 0px inset, rgba(239, 236, 236, 0.15) 0px -36px 30px 0px inset, rgba(230, 228, 228, 0.1) 0px -79px 40px 0px inset, rgba(240, 234, 234, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.graph{
+  height: 250px;
+  width: 770px;
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  /* box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; */
+}
+
+@media screen and (max-width: 1200px){
+  .Main{
+    justify-content: flex-start;
+    margin-top: 60px;
+  }
+  .graph{
+    width: 900px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .graph{
+    width: 500px;
+    margin-bottom: 50px;
+  }
+}
+
+.dashboardBox{
+  display: flex;
+  flex-direction: row;
+}
+
+.chartColumn{
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+  gap:100px;
+  /* padding-left: 40px; */
+  padding-top: 20px;
+}
+
+.chart{
+  height: 250px;
+  width: 380px;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: rgba(214, 205, 205, 0.4) 0px 2px 4px, rgba(214, 191, 191, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+@media screen and (max-width: 1200px){
+  .chart{
+    height: 250px;
+    width: 350px;
+
+  }
+  .chartColumn{
+    gap:100px;
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .chart{
+    height: 250px;
+    width: 450px;
+    margin: 5px;
+    margin-bottom: 2px;
+  }
+}

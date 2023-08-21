@@ -1,0 +1,139 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  margin: 5rem;
+}
+
+.center{
+  margin-left: 30px;
+}
+/* table ,th ,td{
+  border: 1px solid black;
+} */
+/* .roleBox{
+  height: 70vh;
+  width: 100vh;
+  margin-left: 200px;
+  margin-top: 100px;
+  color: black;
+  background-color: rgb(237,205,236);
+  padding-right: 10px;
+} */
+.RoleBox{
+  color: black;
+  display: flex;
+  flex-direction: row;
+}
+.role_table{
+  width: 1000px;
+  padding-left: 50px;
+}
+.addNewRole{
+  padding-top: 0px;
+}
+.modalWrapper{
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  /* background-color: rgba(189,189,189,0.9); */
+}
+.modalBox{
+  position: fixed;
+  margin-top: -100px;
+  margin-left: -10px;
+  height: 70vh;
+  width: 110vh;
+  color: black;
+  background-color: rgb(237,205,236);
+  
+}
+.updateWrapper{
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  
+  
+}
+.updateBox{
+  position: fixed;
+  margin-top: -160px;
+  margin-left: -600px;
+  height: 75vh;
+  width: 110vh;
+  color: black;
+  background-color: rgb(237,205,236);
+ 
+}
+.update{
+  margin-left: 2px;
+}
+.modalButton{
+  padding: 0.6rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.3rem;
+  background-color: #212121;
+  color: white;
+  cursor: pointer;
+  font-family: "Work Sans", sans-serif;
+  transform: scale(0.9);
+}
+form{
+  margin: 50px;
+  padding: 20px;
+}
+label{
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.update>label{
+  font-size: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 0px;
+}
+input{
+  width: 500px;
+  height: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.update>input{
+  
+    width: 50px;
+    height: 30px;
+   
+}
+.deleteButton{
+  padding: 0.6rem;
+  margin-right: 2px;
+  font-size: 0.6rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  font-family: "Work Sans", sans-serif;
+  
+}
+.updateButton{
+  padding: 0.6rem;
+  margin-right: 2px;
+  font-size: 0.6rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: rgb(45, 198, 229);
+  color: white;
+  cursor: pointer;
+  font-family: "Work Sans", sans-serif;
+  
+}
