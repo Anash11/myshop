@@ -34,7 +34,7 @@ const viewroles = async(req,res)=>{
 }
 
 // ////////////////////////UPDATE DATA with PUT////////////
-
+///////////////////
 const updaterole = async(req,res,)=>{
   let role_id = req.query.role_id
   let role = req.body.role_name;
@@ -53,3 +53,4 @@ const updaterole = async(req,res,)=>{
 }
 
 module.exports = {addrole,updaterole,viewroles};
+/////////////
