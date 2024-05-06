@@ -37,7 +37,7 @@ function App(){
   // const [age, setAge] = React.useState('');
 
   // const handleChange = (event: SelectChangeEvent) => {
-  //   setAge(event.target.value);
+  //   setAge(event.target.values);
   // };
   return(
     <>
